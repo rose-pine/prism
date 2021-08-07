@@ -14,7 +14,7 @@
 ## Usage
 
 1. Choose a theme from `dist` & copy the file to your project
-2. Don't forget to install Prism & import your CSS ⭐️
+2. Don't forget to install [Prism](https://prismjs.com) & import your CSS ⭐️
 
 ## Gallery
 
