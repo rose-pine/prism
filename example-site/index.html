@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./prism-rose-pine-dark.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+		<script src="./prism.js"></script>
+	</head>
+	<body>
+		<div id="app"></div>
+		<script type="module" src="/main.js"></script>
+		<header>
+			<div
+				class="intro"
+				data-src="assets/templates/header-main.html"
+				data-type="text/html"
+			></div>
+		</header>
+
+		<section class="language-markup">
+			<pre class="language-ts"><code>
+interface Fruit {
+  name: string;
+  isSweet: boolean;
+}
+
+const whenToEatSweetFruits = "all the time";
+const whenToEatSourFruits = "all the time";
+const someFruit: Fruit = {
+  name: "pitaya",
+  isSweet: true,
+};
+
+function printTheBestTimeToEatSweetOrSourFruits(fruit: Fruit) {
+  console.log(
+    `The best time to eat ${fruit.name} is ${
+      fruit.isSweet ? whenToEatSweetFruits : whenToEatSourFruits
+    }`
+  );
+}
+
+printTheBestTimeToEatSweetOrSourFruits(someFruit);
+	</code></pre>
+		</section>
+	</body>
+</html>

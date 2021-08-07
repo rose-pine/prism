@@ -1,0 +1,23 @@
+{
+	"name": "prism-rose-pine",
+	"version": "0.0.0",
+	"description": "Rosé Pine theme for PrismJS",
+	"license": "MIT",
+	"repository": "fvrests/prism-rose-pine",
+	"author": {
+		"name": "fvrests",
+		"email": "fvrests@icloud.com",
+		"url": "https://github.com/fvrests"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"build": "node index.js"
+	},
+	"dependencies": {
+		"@rose-pine/palette": "^1.0.0",
+		"prettier": "^2.3.2"
+	}
+}
