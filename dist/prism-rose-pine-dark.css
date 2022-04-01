@@ -37,14 +37,14 @@ code[class*="language-"]::-moz-selection,
 pre[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection,
 pre[class*="language-"] ::-moz-selection {
-	background: #2a2837;
+	background: #403d52;
 }
 
 code[class*="language-"]::selection,
 pre[class*="language-"]::selection,
 code[class*="language-"] ::selection,
 pre[class*="language-"] ::selection {
-	background: #2a2837;
+	background: #403d52;
 }
 
 /* Code (block & inline) */
@@ -112,7 +112,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.cdata,
 .token.punctuation {
-	color: #555169;
+	color: #6e6a86;
 }
 
 .token.delimiter,
@@ -189,7 +189,7 @@ pre[class*="language-"] > code[class*="language-"] {
 	padding: inherit 0;
 	margin-top: 1em;
 
-	background: #2a2837;
+	background: #403d52;
 	box-shadow: inset 5px 0 0 #e0def4;
 
 	z-index: 0;

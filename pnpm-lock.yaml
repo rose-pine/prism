@@ -1,0 +1,22 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rose-pine/palette': ^1.0.0
+  prettier: ^2.3.2
+
+dependencies:
+  '@rose-pine/palette': 1.1.0
+  prettier: 2.6.1
+
+packages:
+
+  /@rose-pine/palette/1.1.0:
+    resolution: {integrity: sha512-YVBMSQSipVxpzPsHGsSo5VSBHGi22O1k0FUChLHA/cGLseqn8xYJBCDRxFyxn51H47xkcdUuX/b5egcyKNkxDQ==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
