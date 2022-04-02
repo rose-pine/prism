@@ -1,17 +1,17 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rose-pine/palette': ^1.0.0
+  '@rose-pine/palette': ^2.1.0
   prettier: ^2.3.2
 
 dependencies:
-  '@rose-pine/palette': 1.1.0
+  '@rose-pine/palette': 2.1.0
   prettier: 2.6.1
 
 packages:
 
-  /@rose-pine/palette/1.1.0:
-    resolution: {integrity: sha512-YVBMSQSipVxpzPsHGsSo5VSBHGi22O1k0FUChLHA/cGLseqn8xYJBCDRxFyxn51H47xkcdUuX/b5egcyKNkxDQ==}
+  /@rose-pine/palette/2.1.0:
+    resolution: {integrity: sha512-CVts9RNQU2wCn5rnWJ3QVlLQdjbxJktoGT+U5K8k+9HDgmC8n25C+QjrQ8l4XNTPCl1YzKCdpTy7H8qHutkC5w==}
     engines: {node: '>=12'}
     dev: false
 
