@@ -16,6 +16,10 @@
 1. Choose a theme from `dist` & copy the file to your project
 2. Don't forget to install [Prism](https://prismjs.com) & import your CSS ⭐️
 
+**Alt themes**
+
+By default, all themes use `base` as the code block background color. Alternate themes use a lighter background (`surface`) for contrast when used atop `base`.
+
 ## Gallery
 
 **Rosé Pine**

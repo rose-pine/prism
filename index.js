@@ -19,8 +19,15 @@ let highlightColors = {
 
 for (let variant of ["main", "moon", "dawn"]) {
 	let theme = template;
+	let altTheme = template.replaceAll("$base", "$surface");
+
 	for (let role in roles) {
 		theme = theme
+			.replaceAll(`$${role}`, roles[role][variant].hex)
+			.replaceAll("$foamHighlight", highlightColors.foam[variant])
+			.replaceAll("$loveHighlight", highlightColors.love[variant]);
+
+		altTheme = altTheme
 			.replaceAll(`$${role}`, roles[role][variant].hex)
 			.replaceAll("$foamHighlight", highlightColors.foam[variant])
 			.replaceAll("$loveHighlight", highlightColors.love[variant]);
@@ -30,8 +37,17 @@ for (let variant of ["main", "moon", "dawn"]) {
 		JSON.parse(theme),
 		"utf8"
 	);
+	fs.writeFileSync(
+		`./dist/prism-rose-pine-${variant}-alt.css`,
+		JSON.parse(altTheme),
+		"utf8"
+	);
 	fs.copyFileSync(
 		`./dist/prism-rose-pine-${variant}.css`,
 		`./example-site/prism-rose-pine-${variant}.css`
+	);
+	fs.copyFileSync(
+		`./dist/prism-rose-pine-${variant}-alt.css`,
+		`./example-site/prism-rose-pine-${variant}-alt.css`
 	);
 }
