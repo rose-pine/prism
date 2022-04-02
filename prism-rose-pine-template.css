@@ -37,14 +37,14 @@ code[class*="language-"]::-moz-selection,
 pre[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection,
 pre[class*="language-"] ::-moz-selection {
-	background: $highlight;
+	background: $highlightMed;
 }
 
 code[class*="language-"]::selection,
 pre[class*="language-"]::selection,
 code[class*="language-"] ::selection,
 pre[class*="language-"] ::selection {
-	background: $highlight;
+	background: $highlightMed;
 }
 
 /* Code (block & inline) */
@@ -112,7 +112,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.cdata,
 .token.punctuation {
-	color: $inactive;
+	color: $subtle;
 }
 
 .token.delimiter,
@@ -189,7 +189,7 @@ pre[class*="language-"] > code[class*="language-"] {
 	padding: inherit 0;
 	margin-top: 1em;
 
-	background: $highlight;
+	background: $highlightMed;
 	box-shadow: inset 5px 0 0 $text;
 
 	z-index: 0;

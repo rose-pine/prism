@@ -20,7 +20,7 @@
 
 **Rosé Pine**
 
-![Prism with Rosé Pine](./gallery/dark.png)
+![Prism with Rosé Pine](./gallery/main.png)
 
 **Rosé Pine Moon**
 
